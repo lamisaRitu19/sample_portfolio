@@ -1,0 +1,182 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: #777777;
+    font-size: 15px;
+}
+body {
+    line-height: 1.8;
+}
+h3 {
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 9px;
+}
+.home h3 {
+    background-color: #000000;
+}
+.about h3, .portfolio--work h3 {
+    color: #777777;
+    letter-spacing: 0;
+}
+.portfolio--bg h3, .contact h3 {
+    font-size: 36px;
+}
+
+.btn-bg {
+    background-color: #F1F1F1;
+}
+.btn-bg:hover {
+    background-color: #d4d4d4;
+    color: #000000;
+}
+.btn-black {
+    background-color: #000000;
+    color: #ffffff;
+}
+.btn-grey {
+    color: #777777;
+}
+
+input {
+    height: 45px;
+    border: 1px solid #d4d4d4;
+}
+
+.navbar-brand {
+    font-size: 15px;
+}
+.nav-item {
+    color: #616161;
+}
+.nav-item:hover, nav i:hover {
+    background-color: #d4d4d4;
+    color: #000000;
+}
+
+.home {
+    position: relative;
+    background: url("/images/girl-bg.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.about--info img {
+    opacity: 0.65;
+}
+.about--info img:hover {
+    opacity: 1;
+}
+.about--skills > :first-child {
+    font-size: 18px;
+    letter-spacing: 0;
+}
+.about--skills > p {
+    letter-spacing: 10px;
+}
+
+.progress {
+    height: 35px;
+}
+.progress-bar {
+    background-color: #616161;
+}
+
+.portfolio--summary {
+    background-color: #616161;
+}
+.portfolio--summary p {
+    color: #ffffff;
+}
+.portfolio--summary p:first-child {
+    font-size: 24px;
+}
+.portfolio--bg {
+    position: relative;
+    background: url("/images/portfolio-bg.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+.portfolio--bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.portfolio--work-images img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.contact--bg {
+    position: relative;
+    background: url("/images/girl_with_camera.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+.contact--bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.contact--info-details p {
+    font-size: 18px;
+}
+.contact--info-details p:nth-child(4) {
+    font-size: 15px;
+}
+.contact--info-details i {
+    font-size: 18px;
+}
+.contact--info-details i:hover {
+    color: #000000;
+}
+.contact--info-details p:nth-child(4) > i {
+    font-size: 13px;
+}
+.btn-black > i {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #616161;
+}
+footer:hover {
+    background-color: #000;
+}
+footer p, a {
+    color: #ffffff;
+}
+footer i {
+    color: #ffffff;
+    font-size: 24px;
+}
+footer i:hover {
+    color: #a1a1a1;
+}
+footer button > i {
+    color: #616161;
+    font-size: 15px;
+}
+footer button > i:hover {
+    color: #000;
+}
+footer a {
+    text-decoration: underline;
+}
